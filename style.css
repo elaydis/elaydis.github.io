@@ -6,12 +6,12 @@ body {
 }
 
 header {
-	height: 50px;
+	height: 30px;
 	border-radius: 0px;
 	margin: 0px;
 	clear: both;
 }
-
+	
 section {
 	width: 620px;
 	padding: 10px;
@@ -81,21 +81,11 @@ li {
 	body {width: 640px;} 
 	header {height: 60px; width: 640px;}
 	section {width: 386px; margin: 0px 20px 20px 0px;}
-	aside{width: 214px; padding: 0px; margin: 0px;}
-	div.rechte_reihe{width: 640px;}
-	img.aside1 {width: 200px;}
-	img.aside2 {width: 200px;}
 }
 
 @media screen and (max-width: 639px) {
 	body {width: 426px;} 
-	header {height: 80px; width: 426px; position: absolute; top: 0px;}
+	header {height: 80px; width: 426px; top: 0px;}
 	section {width: 386px; margin: 0px 20px 20px 0px;}
 	aside{width: 426px; padding: 0px 0px; margin: 0px;}
-	div.linke_reihe{width: 220px; padding: 50px; margin: 5px;}
-	div.mittlere_reihe{width: 220px; padding: 50px; margin: 5px;}
-	div.rechte_reihe{width: 220px; padding: 50px; margin: 5px;}
-	aside {width: 426px; float: left;}
-	img.aside1 {width: 300px;}
-	img.aside2 {width: 300px;}
 }
